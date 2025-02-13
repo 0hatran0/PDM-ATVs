@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Curso Técnico em Desenvolvimento de Sistemas - IFSC</title>
+  </head>
+  <body>
+    <p>Hátran Maffini de Souza</p>
+    <header>
+      <h1>Curso Técnico em Desenvolvimento de Sistemas</h1>
+      <p>IFSC - Campus Florianópolis</p>
+    </header>
+    <h2>Desenvolvimento para Dispositivos Móveis</h2>
+    <p>
+      Se você tem interesse em aprender a criar aplicativos e sistemas para
+      dispositivos móveis, este curso é para você!
+    </p>
+    <p>
+      No curso técnico de Desenvolvimento de Sistemas do
+      <strong>IFSC - Campus Florianópolis</strong>, oferecemos disciplinas como
+      <strong>Desenvolvimento para Dispositivos Móveis</strong>, onde você
+      aprenderá a construir aplicações modernas utilizando tecnologias web, como
+      HTML5, CSS3, e JavaScript.
+    </p>
+    <h2>O que você vai aprender:</h2>
+    <ul>
+      <li>Desenvolvimento Mobile First</li>
+      <li>Responsividade com CSS</li>
+      <li>Utilização de frameworks como Bootstrap</li>
+      <li>Desenvolvimento de Progressive Web Apps (PWA)</li>
+    </ul>
+    <h2>Formulário de Interesse</h2>
+    <p>
+      Preencha o formulário abaixo para receber mais informações sobre o curso:
+    </p>
+    <form id="interestForm" action="/enviar" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="mensagem">Mensagem:</label>
+      <textarea
+        id="mensagem"
+        name="mensagem"
+        rows="4"
+        placeholder="Escreva sua mensagem ou perguntas sobre o
+    curso."
+      ></textarea>
+      <input type="submit" value="Enviar Interesse" />
+    </form>
+    <!-- Elemento para exibir a mensagem de agradecimento -->
+    <div id="thankYouMessage">
+      <h3>Obrigado pelo seu interesse!</h3>
+      <p>Recebemos sua mensagem e entraremos em contato em breve.</p>
+    </div>
+    <h2>Venha estudar conosco!</h2>
+    <p>Para mais informações, visite nosso site oficial:</p>
+    <p>
+      <a href="https://www.ifsc.edu.br/florianopolis" target="_blank"
+        >Acesse o site do IFSC - Campus Florianópolis</a
+      >
+    </p>
+    <img
+      class="course-image"
+      src="https://ifsc.edu.br/image/layout_set_logo?img_id=1055822&t=17272556
+    79023"
+      alt="Imagem de promoção do curso no IFSC"
+      style="max-width: 100%; height: auto"
+    />
+    <footer>
+      <p>
+        &copy; 2024 IFSC - Instituto Federal de Santa Catarina. Todos os
+        direitos reservados.
+      </p>
+    </footer>
+    <script src="dinamica.js"></script>
+  </body>
+</html>
