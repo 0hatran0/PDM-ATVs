@@ -1,0 +1,31 @@
+{
+  "home": [
+    {
+      "title": "Bem-vindo!",
+      "text": "Selecione uma aba para ver o conteúdo."
+    }
+  ],
+  "jogos": [
+    {
+      "img": "./imgs/img1.webp",
+      "title": "Jogo 1",
+      "text": "Descrição do Jogo 1"
+    },
+    {
+      "img": "./imgs/img2.jpg",
+      "title": "Jogo 2",
+      "text": "Descrição do Jogo 2"
+    },
+    {
+      "img": "./imgs/img3.webp",
+      "title": "Jogo 3",
+      "text": "Descrição do Jogo 3"
+    }
+  ],
+  "config": [
+    {
+      "title": "Configurações",
+      "text": "Ajuste as preferências do sistema."
+    }
+  ]
+}

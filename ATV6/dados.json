@@ -1,0 +1,31 @@
+{
+  "home": [
+    {
+      "title": "Bem-vindo!",
+      "text": "Selecione uma aba para ver o conteúdo."
+    }
+  ],
+  "jogos": [
+    {
+      "img": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000069430/20a06bf1886558538728f46bf4b3bae2875e7d371d3b0d2b3bbf6ea2302f7668",
+      "title": "Jogo 1",
+      "text": "Descrição do Jogo 1"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4k2E3D3iZ38cJV-p2L1q9bPpSgiWmqUHzhA&s",
+      "title": "Jogo 2",
+      "text": "Descrição do Jogo 2"
+    },
+    {
+      "img": "https://cdn.dlcompare.com/game_tetiere/upload/gameimage/file/8419.jpeg.webp",
+      "title": "Jogo 3",
+      "text": "Descrição do Jogo 3"
+    }
+  ],
+  "config": [
+    {
+      "title": "Configurações",
+      "text": "Ajuste as preferências do sistema."
+    }
+  ]
+}
